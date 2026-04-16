@@ -191,12 +191,13 @@ export default function Result({ tripData }) {
         </section>
 
         {/* Famous Places */}
+        {famous_places && famous_places.length > 0 && (
         <section>
           <h2 className="text-2xl font-bold flex items-center gap-3 mb-6">
             <MapPin className="text-primary" /> Top Famous Landmarks
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {famous_places?.map((place, i) => (
+            {famous_places.map((place, i) => (
               <div key={i} className="glass-card p-5 group hover:-translate-y-1 transition-all">
                 <h3 className="text-lg font-bold text-white mb-2 group-hover:text-primary transition-colors">{place.name}</h3>
                 <p className="text-sm text-gray-400 flex items-center gap-1 mb-3">
@@ -207,6 +208,7 @@ export default function Result({ tripData }) {
             ))}
           </div>
         </section>
+        )}
 
           {/* Temples and Spiritual Tourism */}
           {temples && temples.length > 0 && (
@@ -251,12 +253,13 @@ export default function Result({ tripData }) {
           )}
 
           {/* Hotels */}
+          {hotels && hotels.length > 0 && (
           <section>
             <h2 className="text-2xl font-bold flex items-center gap-3 mb-6">
               <span className="text-2xl">🏨</span> Recommended Hotels
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {hotels?.map((hotel, i) => (
+              {hotels.map((hotel, i) => (
                 <div key={i} className="glass-card p-5 flex flex-col h-full bg-blue-900/10 hover:bg-blue-900/20">
                   <div className="flex-1">
                     <h3 className="text-lg font-bold text-white mb-1">{hotel.name}</h3>
@@ -282,14 +285,16 @@ export default function Result({ tripData }) {
               ))}
             </div>
           </section>
+          )}
 
           {/* Restaurants */}
+          {restaurants && restaurants.length > 0 && (
           <section>
             <h2 className="text-2xl font-bold flex items-center gap-3 mb-6">
               <Utensils className="text-secondary" /> Popular Restaurants
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              {restaurants?.map((rest, i) => (
+              {restaurants.map((rest, i) => (
                 <div key={i} className="glass-card p-4 hover:border-secondary/30 transition-colors">
                   <h3 className="font-bold text-white mb-1">{rest.name}</h3>
                   <div className="text-sm text-secondary mb-2">{rest.cuisine}</div>
@@ -301,6 +306,7 @@ export default function Result({ tripData }) {
               ))}
             </div>
           </section>
+          )}
 
           {/* Contact Us Section */}
           <section className="pt-12 border-t border-white/10">

@@ -1878,6 +1878,372 @@ const destinations = {
     hotels: [{ name: "Pilibhit House", location: "Jwalapur", pricePerNight: 22000, rating: 4.8 }],
     restaurants: [{ name: "Chotiwala", cuisine: "South Indian/Thali", location: "Haridwar", rating: 4.4 }],
     places_pool: [{ name: "Mansa Devi Temple", location: "Hilltop", type: "Temple" }, { name: "Chandi Devi Temple", location: "Hilltop", type: "Temple" }]
+  },
+  "jammu": {
+    temples: [
+      { name: "Raghunath Temple", location: "Jammu City", history: { dynasty: "Dogra", year: 1860, builder: "Maharaja Ranbir Singh", importance: "One of the largest temple complexes in North India." }, timings: "6:00 AM – 8:00 PM", entryFee: "Free", rating: 4.7 },
+      { name: "Bave Wali Mata", location: "Bahu Fort", history: { dynasty: "Dogra", year: 1822, builder: "Maharaja Gulab Singh", importance: "Highly revered shrine dedicated to Goddess Kali." }, timings: "5:00 AM – 9:00 PM", entryFee: "Free", rating: 4.8 },
+      { name: "Ranbireshwar Temple", location: "Shalimar Road", history: { dynasty: "Dogra", year: 1883, builder: "Maharaja Ranbir Singh", importance: "Famous for its huge Shiva Lingam." }, timings: "6:00 AM – 8:00 PM", entryFee: "Free", rating: 4.6 }
+    ],
+    famous_places: [
+      { name: "Bahu Fort", location: "Bahu", description: "Ancient fort situated on the banks of the Tawi River featuring scenic terrace gardens." },
+      { name: "Amar Mahal Museum", location: "Jammu", description: "A beautiful palace built like a French chateau, now a museum." },
+      { name: "Mubarak Mandi Palace", location: "Old City", description: "Historic royal residence of the Dogra kings." },
+      { name: "Mansar Lake", location: "Surinsar-Mansar", description: "Beautiful lake surrounded by forest-covered hills." }
+    ],
+    hotels: [
+      { name: "Radisson Blu", location: "Jammu Main", pricePerNight: 5500, rating: 4.5 },
+      { name: "KC Residency", location: "Residency Road", pricePerNight: 4500, rating: 4.3 },
+      { name: "Ramada", location: "City Centre", pricePerNight: 6000, rating: 4.6 },
+      { name: "Lords Inn", location: "BC Road", pricePerNight: 3500, rating: 4.2 },
+      { name: "Hari Nivas Palace", location: "Palace Road", pricePerNight: 8500, rating: 4.7 }
+    ],
+    restaurants: [
+      { name: "Pahalwan Di Hatti", cuisine: "Street Food/Sweets", location: "Bari Brahmana", rating: 4.6 },
+      { name: "Khaana Khazana", cuisine: "North Indian", location: "Residency Road", rating: 4.3 },
+      { name: "Falcons", cuisine: "Multi Cuisine", location: "Trikuta Nagar", rating: 4.4 },
+      { name: "Barbeque Nation", cuisine: "Grills", location: "City Centre", rating: 4.7 },
+      { name: "Dogra Traditional", cuisine: "Local Dogri", location: "Jammu", rating: 4.5 }
+    ],
+    places_pool: [
+      { name: "Bahu Fort Walk", location: "Jammu", type: "Landmark" },
+      { name: "Amar Mahal Visit", location: "Jammu", type: "Museum" },
+      { name: "Raghunath Bazar Shopping", location: "Jammu", type: "Market" },
+      { name: "Mansar Lake Boating", location: "Mansar", type: "Activity" },
+      { name: "Bagh-e-Bahu Garden", location: "Jammu", type: "Garden" },
+      { name: "Surinsar Lake Picnic", location: "Surinsar", type: "Nature" },
+      { name: "Mubarak Mandi Heritage", location: "Old City", type: "Culture" },
+      { name: "Peer Kho Cave Temple", location: "Jammu", type: "Temple" }
+    ]
+  },
+  "araku": {
+    temples: [
+      { name: "Padmapuram Gardens Shrine", location: "Araku", history: { dynasty: "Modern", year: 1942, builder: "Local Gov", importance: "Tranquil grove and shrine." }, timings: "9:00 AM – 6:00 PM", entryFee: "₹40", rating: 4.2 }
+    ],
+    famous_places: [
+      { name: "Borra Caves", location: "Ananthagiri Hills", description: "A million-year-old limestone cave formation famous for stalactites and stalagmites." },
+      { name: "Araku Tribal Museum", location: "Araku Valley", description: "Showcases the rich cultural heritage and lifestyle of the local tribal communities." },
+      { name: "Katiki Waterfalls", location: "Katiki", description: "A stunning 50ft high waterfall requiring a short trek." },
+      { name: "Coffee Museum", location: "Araku", description: "Details the history of coffee and offers delicious local brews." }
+    ],
+    hotels: [
+      { name: "Haritha Valley Resort", location: "Araku Main", pricePerNight: 3500, rating: 4.3 },
+      { name: "Nature Base Resort", location: "Araku", pricePerNight: 2800, rating: 4.1 },
+      { name: "Vihar Holiday Inn", location: "Near Railway Station", pricePerNight: 2500, rating: 4.0 },
+      { name: "Ushasree Residency", location: "Araku Valley", pricePerNight: 1500, rating: 3.8 },
+      { name: "Araku Haritha Hill Resort", location: "Araku", pricePerNight: 4000, rating: 4.5 }
+    ],
+    restaurants: [
+      { name: "Bamboo Chicken Stalls", cuisine: "Tribal Non-Veg", location: "Araku Streets", rating: 4.8 },
+      { name: "Vasundhara Restaurant", cuisine: "South Indian Thali", location: "Araku", rating: 4.2 },
+      { name: "Hill View Cafe", cuisine: "Snacks/Coffee", location: "Coffee Museum", rating: 4.5 },
+      { name: "Spicy Araku", cuisine: "Andhra Special", location: "Main Road", rating: 4.1 },
+      { name: "Tribal Canteen", cuisine: "Local Flavors", location: "Tribal Museum", rating: 4.3 }
+    ],
+    places_pool: [
+      { name: "Borra Caves Trek", location: "Ananthagiri", type: "Nature" },
+      { name: "Coffee Plantation Walk", location: "Araku", type: "Activity" },
+      { name: "Tribal Dance Show", location: "Araku", type: "Culture" },
+      { name: "Katiki Falls Hike", location: "Katiki", type: "Nature" },
+      { name: "Galikonda Viewpoint", location: "Galikonda", type: "Landmark" },
+      { name: "Tatipudi Reservoir", location: "Araku outskirt", type: "Nature" },
+      { name: "Chaparai Water Cascades", location: "Chaparai", type: "Nature" },
+      { name: "Padmapuram Botanical Gardens", location: "Araku", type: "Garden" }
+    ]
+  },
+  "munnar": {
+    temples: [
+      { name: "Carmal Church", location: "Munnar Town", history: { dynasty: "British", year: 1898, builder: "Missionaries", importance: "First Catholic Church in the High Ranges." }, timings: "8:00 AM – 6:00 PM", entryFee: "Free", rating: 4.5 }
+    ],
+    famous_places: [
+      { name: "Eravikulam National Park", location: "Munnar", description: "Lush green habitat of the endangered Nilgiri Tahr." },
+      { name: "Mattupetty Dam", location: "Mattupetty", description: "Concrete gravity dam famous for boating and reflections of tea gardens." },
+      { name: "Tea Museum", location: "Nallathanni", description: "Showcases the history and processing of tea in the region." },
+      { name: "Top Station", location: "Munnar-Kodaikanal Rd", description: "The highest point in Munnar, offering panoramic views of the Western Ghats." }
+    ],
+    hotels: [
+      { name: "Spice Tree Munnar", location: "Muttukad", pricePerNight: 9500, rating: 4.8 },
+      { name: "Blanket Hotel & Spa", location: "Attukad", pricePerNight: 12000, rating: 4.9 },
+      { name: "Tea County", location: "KTDC Munnar", pricePerNight: 5500, rating: 4.4 },
+      { name: "Amber Dale", location: "Pallivasal", pricePerNight: 7000, rating: 4.6 },
+      { name: "Munnar Tea Hills Resort", location: "Anachal", pricePerNight: 4500, rating: 4.3 }
+    ],
+    restaurants: [
+      { name: "Saravana Bhavan", cuisine: "South Indian Pure Veg", location: "Munnar Town", rating: 4.4 },
+      { name: "Rapsy Restaurant", cuisine: "Kerala Parotta/Beef", location: "Main Bazar", rating: 4.5 },
+      { name: "Guru's Restaurant", cuisine: "Multi Cuisine", location: "Munnar", rating: 4.2 },
+      { name: "Rochas Restaurant", cuisine: "Continental", location: "Munnar", rating: 4.3 },
+      { name: "Eastend Munnar Dining", cuisine: "Kerala/Indian", location: "Munnar", rating: 4.5 }
+    ],
+    places_pool: [
+      { name: "Eravikulam Tahr Trek", location: "Eravikulam", type: "Nature" },
+      { name: "Tea Estate Walk", location: "Munnar", type: "Activity" },
+      { name: "Mattupetty Boating", location: "Mattupetty", type: "Leisure" },
+      { name: "Echo Point View", location: "Munnar", type: "Landmark" },
+      { name: "Kundala Lake Shikara", location: "Kundala", type: "Activity" },
+      { name: "Attukal Waterfalls", location: "Attukal", type: "Nature" },
+      { name: "Top Station View", location: "Top Station", type: "Landmark" },
+      { name: "Blossom Park Stroll", location: "Munnar", type: "Garden" }
+    ]
+  },
+  "thirupathi": {
+    temples: [
+      { name: "Tirumala Venkateswara", location: "Tirumala Hills", history: { dynasty: "Pallava", year: 300, builder: "Kings", importance: "World's most visited sacred shrine." }, timings: "3:00 AM – 1:00 AM", entryFee: "Free/Paid", rating: 4.9 },
+      { name: "Padmavathi Ammavari", location: "Tiruchanur", history: { dynasty: "Pallava", year: 800, builder: "Local", importance: "Dedicated to Goddess Padmavathi." }, timings: "5:00 AM – 9:00 PM", entryFee: "Free", rating: 4.8 },
+      { name: "Govindaraja Swamy Temple", location: "Tirupati Area", history: { dynasty: "Vijayanagara", year: 1130, builder: "Ramanujacharya", importance: "One of the earliest temples in Tirupati." }, timings: "5:30 AM – 9:00 PM", entryFee: "Free", rating: 4.6 }
+    ],
+    famous_places: [
+      { name: "Silathoranam", location: "Tirumala", description: "Rare natural geological rock arch formation." },
+      { name: "Chandragiri Fort", location: "Chandragiri", description: "11th century fort built by Yadava Naidus." },
+      { name: "Sri Venkateswara Zoo", location: "Tirupati", description: "Largest zoological park in Andhra Pradesh." },
+      { name: "Talakona Waterfalls", location: "Sri Venkateswara Park", description: "Highest waterfall in AP with lush greenery." }
+    ],
+    hotels: [
+      { name: "Taj Tirupati", location: "Renigunta Road", pricePerNight: 7500, rating: 4.7 },
+      { name: "Fortune Select Grand Ridge", location: "Shilparamam", pricePerNight: 5500, rating: 4.5 },
+      { name: "Marasa Sarovar Premiere", location: "Upadhyaya Nagar", pricePerNight: 6000, rating: 4.6 },
+      { name: "Hotel Bliss", location: "Renigunta Road", pricePerNight: 3500, rating: 4.2 },
+      { name: "Bhimas Residency", location: "Karakambadi Road", pricePerNight: 2800, rating: 4.4 }
+    ],
+    restaurants: [
+      { name: "Bhimas Restaurant", cuisine: "South Indian Meals", location: "Tirupati", rating: 4.6 },
+      { name: "Mourya", cuisine: "Multi Cuisine", location: "Tirupati", rating: 4.3 },
+      { name: "Minerva Coffee Shop", cuisine: "Breakfast/Snacks", location: "Grand Ridge", rating: 4.5 },
+      { name: "Srinivasa Food Court", cuisine: "Fast Food", location: "Tirupati", rating: 4.2 },
+      { name: "Andhra Spice", cuisine: "Spicy Indian", location: "Tirupati", rating: 4.4 }
+    ],
+    places_pool: [
+      { name: "Tirumala Darshan", location: "Tirumala", type: "Temple" },
+      { name: "Silathoranam Visit", location: "Tirumala", type: "Nature" },
+      { name: "Kapila Theertham", location: "Tirupati", type: "Temple" },
+      { name: "Chandragiri Light Show", location: "Chandragiri", type: "Culture" },
+      { name: "Regional Science Centre", location: "Tirupati", type: "Museum" },
+      { name: "ISKON Tirupati", location: "Tirupati", type: "Temple" },
+      { name: "Srivari Museum", location: "Tirumala", type: "Culture" },
+      { name: "Deer Park", location: "Tirumala Ghat", type: "Nature" }
+    ]
+  },
+  "arunchalam": {
+    temples: [
+      { name: "Arunachalesvara Temple", location: "Tiruvannamalai", history: { dynasty: "Chola/Pandya", year: 800, builder: "Chola Kings", importance: "Massive Shiva temple representing the fire element." }, timings: "5:30 AM – 9:00 PM", entryFee: "Free", rating: 4.9 },
+      { name: "Sri Ramanasramam", location: "Tiruvannamalai", history: { dynasty: "Modern", year: 1922, builder: "Bhagavan Sri Ramana", importance: "Ashram of the famous sage Ramana Maharshi." }, timings: "8:00 AM – 7:00 PM", entryFee: "Free", rating: 4.8 },
+      { name: "Virupaksha Cave", location: "Arunachala Hill", history: { dynasty: "Ancient", year: 1200, builder: "Nature", importance: "Cave where Ramana Maharshi meditated for 17 years." }, timings: "7:00 AM – 4:00 PM", entryFee: "Free", rating: 4.7 }
+    ],
+    famous_places: [
+      { name: "Arunachala Hill", location: "Tiruvannamalai", description: "Sacred hill circumambulated by thousands of devotees during Girivalam." },
+      { name: "Sathanur Dam", location: "Pennaiyar River", description: "Large dam constructed across Pennaiyar river with a beautiful park." },
+      { name: "Yogi Ramsuratkumar Ashram", location: "Agamudaiyan", description: "Beautiful ashram dedicated to the great saint affectionately called Visiri Samiyar." },
+      { name: "Skandashramam", location: "Arunachala Hill", description: "Another meditation site of Ramana Maharshi on the sacred hill." }
+    ],
+    hotels: [
+      { name: "Sparsa Resort", location: "Athiyanthal", pricePerNight: 5500, rating: 4.6 },
+      { name: "Arunai Anantha Resort", location: "Chengham Road", pricePerNight: 4000, rating: 4.3 },
+      { name: "Aashraya Hotel", location: "Tiruvannamalai", pricePerNight: 2500, rating: 4.1 },
+      { name: "Ramakrishna Hotel", location: "Bus Stand", pricePerNight: 1500, rating: 4.0 },
+      { name: "Athena Hotel", location: "Girivalam Path", pricePerNight: 3500, rating: 4.4 }
+    ],
+    restaurants: [
+      { name: "Auro Usha", cuisine: "Multi Cuisine/Vegan", location: "Tiruvannamalai", rating: 4.5 },
+      { name: "German Bakery", cuisine: "Bakery/Continental", location: "Ramana Ashram Rd", rating: 4.6 },
+      { name: "Hotel Aruna", cuisine: "South Indian", location: "Tiruvannamalai", rating: 4.2 },
+      { name: "Dreaming Tree", cuisine: "Healthy/Organic", location: "Tiruvannamalai", rating: 4.7 },
+      { name: "A2B Adyar Ananda Bhavan", cuisine: "Veg Indian", location: "Main Road", rating: 4.4 }
+    ],
+    places_pool: [
+      { name: "Girivalam Trek", location: "Arunachala", type: "Activity" },
+      { name: "Ramana Ashram Visit", location: "Tiruvannamalai", type: "Culture" },
+      { name: "Arunachalesvara Aarti", location: "Temple", type: "Temple" },
+      { name: "Virupaksha Cave Hike", location: "Hill", type: "Nature" },
+      { name: "Skandashramam Climb", location: "Hill", type: "Nature" },
+      { name: "Yogi Ramsuratkumar Ashram", location: "Tiruvannamalai", type: "Culture" },
+      { name: "Sathanur Dam Garden", location: "Thandarampet", type: "Leisure" },
+      { name: "Gingee Fort Trip", location: "Outskirts", type: "Landmark" }
+    ]
+  },
+  "arunachalam": {
+    temples: [
+      { name: "Arunachalesvara Temple", location: "Tiruvannamalai", history: { dynasty: "Chola/Pandya", year: 800, builder: "Chola Kings", importance: "Massive Shiva temple representing the fire element." }, timings: "5:30 AM – 9:00 PM", entryFee: "Free", rating: 4.9 },
+      { name: "Sri Ramanasramam", location: "Tiruvannamalai", history: { dynasty: "Modern", year: 1922, builder: "Bhagavan Sri Ramana", importance: "Ashram of the famous sage Ramana Maharshi." }, timings: "8:00 AM – 7:00 PM", entryFee: "Free", rating: 4.8 },
+      { name: "Virupaksha Cave", location: "Arunachala Hill", history: { dynasty: "Ancient", year: 1200, builder: "Nature", importance: "Cave where Ramana Maharshi meditated for 17 years." }, timings: "7:00 AM – 4:00 PM", entryFee: "Free", rating: 4.7 }
+    ],
+    famous_places: [
+      { name: "Arunachala Hill", location: "Tiruvannamalai", description: "Sacred hill circumambulated by thousands of devotees during Girivalam." },
+      { name: "Sathanur Dam", location: "Pennaiyar River", description: "Large dam constructed across Pennaiyar river with a beautiful park." },
+      { name: "Yogi Ramsuratkumar Ashram", location: "Agamudaiyan", description: "Beautiful ashram dedicated to the great saint affectionately called Visiri Samiyar." },
+      { name: "Skandashramam", location: "Arunachala Hill", description: "Another meditation site of Ramana Maharshi on the sacred hill." }
+    ],
+    hotels: [
+      { name: "Sparsa Resort", location: "Athiyanthal", pricePerNight: 5500, rating: 4.6 },
+      { name: "Arunai Anantha Resort", location: "Chengham Road", pricePerNight: 4000, rating: 4.3 },
+      { name: "Aashraya Hotel", location: "Tiruvannamalai", pricePerNight: 2500, rating: 4.1 },
+      { name: "Ramakrishna Hotel", location: "Bus Stand", pricePerNight: 1500, rating: 4.0 },
+      { name: "Athena Hotel", location: "Girivalam Path", pricePerNight: 3500, rating: 4.4 }
+    ],
+    restaurants: [
+      { name: "Auro Usha", cuisine: "Multi Cuisine/Vegan", location: "Tiruvannamalai", rating: 4.5 },
+      { name: "German Bakery", cuisine: "Bakery/Continental", location: "Ramana Ashram Rd", rating: 4.6 },
+      { name: "Hotel Aruna", cuisine: "South Indian", location: "Tiruvannamalai", rating: 4.2 },
+      { name: "Dreaming Tree", cuisine: "Healthy/Organic", location: "Tiruvannamalai", rating: 4.7 },
+      { name: "A2B Adyar Ananda Bhavan", cuisine: "Veg Indian", location: "Main Road", rating: 4.4 }
+    ],
+    places_pool: [
+      { name: "Girivalam Trek", location: "Arunachala", type: "Activity" },
+      { name: "Ramana Ashram Visit", location: "Tiruvannamalai", type: "Culture" },
+      { name: "Arunachalesvara Aarti", location: "Temple", type: "Temple" },
+      { name: "Virupaksha Cave Hike", location: "Hill", type: "Nature" },
+      { name: "Skandashramam Climb", location: "Hill", type: "Nature" },
+      { name: "Yogi Ramsuratkumar Ashram", location: "Tiruvannamalai", type: "Culture" },
+      { name: "Sathanur Dam Garden", location: "Thandarampet", type: "Leisure" },
+      { name: "Gingee Fort Trip", location: "Outskirts", type: "Landmark" }
+    ]
+  },
+  "delhi": {
+    temples: [
+      { name: "Akshardham Temple", location: "Noida Mor", history: { dynasty: "Modern", year: 2005, builder: "BAPS", importance: "Stunning modern architecture of Indian culture." }, timings: "9:30 AM – 8:00 PM", entryFee: "Free (Exhibitions Paid)", rating: 4.9 },
+      { name: "Lotus Temple", location: "Kalkaji", history: { dynasty: "Modern", year: 1986, builder: "Baha'i House", importance: "Famous flower-like shape." }, timings: "8:30 AM – 5:00 PM", entryFee: "Free", rating: 4.8 },
+      { name: "Jama Masjid", location: "Old Delhi", history: { dynasty: "Mughal", year: 1656, builder: "Shah Jahan", importance: "One of the largest mosques in India." }, timings: "7:00 AM – 12:00 PM, 1:30 PM - 6:30 PM", entryFee: "Free", rating: 4.7 }
+    ],
+    famous_places: [
+      { name: "India Gate", location: "Rajpath", description: "War memorial dedicated to Indian soldiers." },
+      { name: "Red Fort", location: "Old Delhi", description: "Historic fort that served as the main residence of the Mughal Emperors." },
+      { name: "Qutub Minar", location: "Mehrauli", description: "A UNESCO World Heritage site and the tallest brick minaret in the world." },
+      { name: "Humayun's Tomb", location: "Nizamuddin East", description: "Magnificent garden tomb of the Mughal Emperor Humayun." }
+    ],
+    hotels: [
+      { name: "The Taj Mahal Hotel", location: "Mansingh Road", pricePerNight: 16000, rating: 4.8 },
+      { name: "ITC Maurya", location: "Chanakyapuri", pricePerNight: 15500, rating: 4.7 },
+      { name: "Radisson Blu Marina", location: "Connaught Place", pricePerNight: 7000, rating: 4.5 },
+      { name: "The Lalit", location: "Barakhamba Avenue", pricePerNight: 8500, rating: 4.6 },
+      { name: "Bloomrooms", location: "New Delhi Railway Station", pricePerNight: 3500, rating: 4.3 }
+    ],
+    restaurants: [
+      { name: "Bukhara", location: "ITC Maurya", cuisine: "North West Frontier", rating: 4.8 },
+      { name: "Karim's", location: "Chandni Chowk", cuisine: "Mughlai", rating: 4.5 },
+      { name: "Indian Accent", location: "Lodhi Road", cuisine: "Modern Indian", rating: 4.9 },
+      { name: "Dilli Haat Food Court", location: "INA", cuisine: "Regional Indian", rating: 4.4 },
+      { name: "Saravana Bhavan", location: "Connaught Place", cuisine: "South Indian", rating: 4.4 }
+    ],
+    places_pool: [
+      { name: "India Gate Walk", location: "Rajpath", type: "Landmark" },
+      { name: "Red Fort Tour", location: "Old Delhi", type: "Culture" },
+      { name: "Qutub Minar Visit", location: "Mehrauli", type: "Landmark" },
+      { name: "Chandni Chowk Market", location: "Old Delhi", type: "Market" },
+      { name: "Lotus Temple Peace", location: "Kalkaji", type: "Culture" },
+      { name: "Akshardham Evening", location: "Noida Mor", type: "Temple" },
+      { name: "Lodhi Garden Stroll", location: "Lodhi Estate", type: "Garden" },
+      { name: "Humayun's Tomb", location: "Nizamuddin", type: "Culture" }
+    ]
+  },
+  "kerala": {
+    temples: [
+      { name: "Sree Padmanabhaswamy", location: "Trivandrum", history: { dynasty: "Chera/Travancore", year: 800, builder: "Kings", importance: "Richest temple in the world." }, timings: "3:30 AM – 12:00 PM, 5:00 PM - 7:30 PM", entryFee: "Free", rating: 4.9 },
+      { name: "Sabarimala Sastha", location: "Pathanamthitta", history: { dynasty: "Ancient", year: 1000, builder: "Parasurama", importance: "Famous hill shrine to Lord Ayyappa." }, timings: "4:00 AM – 11:00 PM", entryFee: "Free", rating: 4.8 },
+      { name: "Guruvayur Temple", location: "Thrissur", history: { dynasty: "Ancient", year: 5000, builder: "Divine", importance: "Dwarka of the South." }, timings: "3:00 AM – 1:00 PM, 4:30 PM - 8:30 PM", entryFee: "Free", rating: 4.9 }
+    ],
+    famous_places: [
+      { name: "Alleppey Backwaters", location: "Alappuzha", description: "Famous for its houseboat cruises and tranquil canals." },
+      { name: "Munnar Tea Gardens", location: "Munnar", description: "Lush green rolling hills draped in tea plantations." },
+      { name: "Fort Kochi", location: "Kochi", description: "Historic seaside spot featuring Chinese fishing nets and colonial architecture." },
+      { name: "Wayanad Forests", location: "Wayanad", description: "Pristine nature, spice plantations, and waterfalls." }
+    ],
+    hotels: [
+      { name: "Taj Kumarakom Resort", location: "Kumarakom", pricePerNight: 18000, rating: 4.8 },
+      { name: "The Zuri White Sands", location: "Kumarakom", pricePerNight: 15000, rating: 4.7 },
+      { name: "Spice Tree Munnar", location: "Munnar", pricePerNight: 9500, rating: 4.8 },
+      { name: "Brunton Boatyard", location: "Fort Kochi", pricePerNight: 12000, rating: 4.6 },
+      { name: "KTDC Samudra", location: "Kovalam", pricePerNight: 5500, rating: 4.2 }
+    ],
+    restaurants: [
+      { name: "Paragon Restaurant", location: "Kozhikode", cuisine: "Kerala Traditional/Biryani", rating: 4.8 },
+      { name: "Villa Maya", location: "Trivandrum", cuisine: "Heritage Kerala", rating: 4.7 },
+      { name: "Grand Pavilion", location: "Ernakulam", cuisine: "Seafood/Kerala", rating: 4.6 },
+      { name: "Kashi Art Cafe", location: "Fort Kochi", cuisine: "Continental/Cafe", rating: 4.5 },
+      { name: "Mothers Veg Plaza", location: "Trivandrum", cuisine: "Sadhya", rating: 4.6 }
+    ],
+    places_pool: [
+      { name: "Houseboat Tour", location: "Alleppey", type: "Activity" },
+      { name: "Fort Kochi Walk", location: "Kochi", type: "Leisure" },
+      { name: "Tea Estate Walk", location: "Munnar", type: "Nature" },
+      { name: "Kathakali Performance", location: "Kochi", type: "Culture" },
+      { name: "Wayanad Edakkal Caves", location: "Wayanad", type: "Culture" },
+      { name: "Kumarakom Bird Sanctuary", location: "Kumarakom", type: "Nature" },
+      { name: "Kovalam Beach Time", location: "Trivandrum", type: "Activity" },
+      { name: "Varkala Cliff Sunset", location: "Varkala", type: "Nature" }
+    ]
+  },
+  "ahmedabad": {
+    temples: [
+      { name: "Akshardham Temple", location: "Gandhinagar", history: { dynasty: "Modern", year: 1992, builder: "BAPS", importance: "Stunning cultural complex and temple." }, timings: "9:30 AM – 7:30 PM", entryFee: "Free", rating: 4.9 },
+      { name: "Hutheesing Jain Temple", location: "Bardolpura", history: { dynasty: "Modern", year: 1848, builder: "Seth Hutheesing", importance: "Intricately carved marble Jain temple." }, timings: "8:00 AM – 5:00 PM", entryFee: "Free", rating: 4.6 },
+      { name: "Camp Hanuman Temple", location: "Cantonment", history: { dynasty: "Ancient", year: 1800, builder: "Pandit Gajanan", importance: "One of the most famous Hanuman temples in India." }, timings: "6:00 AM – 8:00 PM", entryFee: "Free", rating: 4.7 }
+    ],
+    famous_places: [
+      { name: "Sabarmati Ashram", location: "Sabarmati", description: "Mahatma Gandhi's residence and the starting point of the Dandi March." },
+      { name: "Adalaj Stepwell", location: "Adalaj", description: "Five-story deep intricately carved stepwell built in 1498." },
+      { name: "Kankaria Lake", location: "Maninagar", description: "Circular lake with a train, zoo, and tethered balloon ride." },
+      { name: "Statue of Unity", location: "Kevadia", description: "The world's tallest statue (day-trip from Ahmedabad)." }
+    ],
+    hotels: [
+      { name: "Taj Skyline", location: "Sindhu Bhavan", pricePerNight: 9500, rating: 4.7 },
+      { name: "Courtyard by Marriott", location: "Satellite", pricePerNight: 7500, rating: 4.6 },
+      { name: "Hyatt Regency", location: "Ashram Road", pricePerNight: 8000, rating: 4.5 },
+      { name: "Lemon Tree Premier", location: "Bhadra", pricePerNight: 4500, rating: 4.3 },
+      { name: "House of MG", location: "Bhadra", pricePerNight: 6500, rating: 4.7 }
+    ],
+    restaurants: [
+      { name: "Agashiye", location: "House of MG", cuisine: "Gujarati Thali", rating: 4.7 },
+      { name: "Vishalla", location: "Vasna", cuisine: "Traditional Gujarati", rating: 4.6 },
+      { name: "Swati Snacks", location: "Law Garden", cuisine: "Street Food/Veg", rating: 4.5 },
+      { name: "Manek Chowk Night Market", location: "Old City", cuisine: "Street Food", rating: 4.5 },
+      { name: "Gordhan Thaal", location: "SG Highway", cuisine: "Gujarati Thali", rating: 4.4 }
+    ],
+    places_pool: [
+      { name: "Sabarmati Ashram Visit", location: "Sabarmati", type: "Culture" },
+      { name: "Kankaria Lake Walk", location: "Maninagar", type: "Leisure" },
+      { name: "Adalaj Stepwell Explore", location: "Adalaj", type: "Culture" },
+      { name: "Law Garden Night Market", location: "Ellisbridge", type: "Market" },
+      { name: "Auto World Vintage Car Museum", location: "Kathwada", type: "Museum" },
+      { name: "Science City", location: "Sola", type: "Activity" },
+      { name: "Manek Chowk Eats", location: "Old City", type: "Market" },
+      { name: "Akshardham Gandhinagar", location: "Gandhinagar", type: "Temple" }
+    ]
+  },
+  "maharashtra": {
+    temples: [
+      { name: "Siddhivinayak Temple", location: "Mumbai", history: { dynasty: "Maratha", year: 1801, builder: "Laxman Vithu", importance: "Famous Ganesh temple." }, timings: "5:30 AM – 9:00 PM", entryFee: "Free", rating: 4.8 },
+      { name: "Trimbakeshwar Shiva", location: "Nashik", history: { dynasty: "Peshwa", year: 1755, builder: "Balaji Baji Rao", importance: "One of the 12 Jyotirlingas." }, timings: "5:30 AM – 9:00 PM", entryFee: "Free", rating: 4.8 },
+      { name: "Shirdi Sai Baba", location: "Shirdi", history: { dynasty: "Modern", year: 1922, builder: "Devotees", importance: "Shrine of the revered saint Sai Baba." }, timings: "4:00 AM – 11:15 PM", entryFee: "Free", rating: 4.9 }
+    ],
+    famous_places: [
+      { name: "Gateway of India", location: "Mumbai", description: "Iconic arch monument built to commemorate the landing of King George V." },
+      { name: "Ajanta Caves", location: "Aurangabad", description: "Ancient Buddhist cave monuments dating from 2nd century BCE." },
+      { name: "Ellora Caves", location: "Aurangabad", description: "UNESCO Heritage site featuring monumental rock-cut Hindu temples." },
+      { name: "Mahabaleshwar", location: "Satara", description: "Famous hill station known for its strawberries and valley views." }
+    ],
+    hotels: [
+      { name: "Taj Mahal Palace", location: "Mumbai", pricePerNight: 25000, rating: 4.9 },
+      { name: "Trident Nariman Point", location: "Mumbai", pricePerNight: 15000, rating: 4.7 },
+      { name: "Le Meridien", location: "Mahabaleshwar", pricePerNight: 12000, rating: 4.6 },
+      { name: "Vivanta", location: "Aurangabad", pricePerNight: 7500, rating: 4.5 },
+      { name: "JW Marriott", location: "Pune", pricePerNight: 11000, rating: 4.8 }
+    ],
+    restaurants: [
+      { name: "Britannia & Co", cuisine: "Parsi", location: "Mumbai", rating: 4.6 },
+      { name: "Leopold Cafe", cuisine: "Continental", location: "Colaba", rating: 4.4 },
+      { name: "Vaishali", cuisine: "South Indian", location: "Pune", rating: 4.7 },
+      { name: "Bademiya", cuisine: "Kebabs", location: "Mumbai", rating: 4.5 },
+      { name: "Yalla Yalla", cuisine: "Middle Eastern", location: "Aurangabad", rating: 4.3 }
+    ],
+    places_pool: [
+      { name: "Marine Drive Walk", location: "Mumbai", type: "Leisure" },
+      { name: "Ajanta Caves Tour", location: "Aurangabad", type: "Culture" },
+      { name: "Ellora Caves Walk", location: "Aurangabad", type: "Culture" },
+      { name: "Shirdi Darshan", location: "Shirdi", type: "Temple" },
+      { name: "Shivneri Fort Trek", location: "Junnar", type: "Nature" },
+      { name: "Lonavala Khandala", location: "Pune Highway", type: "Nature" },
+      { name: "Colaba Causeway", location: "Mumbai", type: "Market" },
+      { name: "Elephanta Caves", location: "Mumbai", type: "Landmark" }
+    ]
   }
 };
 
